@@ -1,19 +1,24 @@
 {
-    "name": "magbook",
-    "version": "1.0.0",
-    "description": "PROJECT REQUIREMENTS:     1. Node and Express web server     2. Backed by MySQL database and an ORM (not necessarily Sequelize)     3. GET and POST routes     4. MVC folder structure     5. Utilize at least one new library, package, or technology     5. (Optional) Handlebars templating     7. Proper project management (Trello, git branching, README, package.json, etc.)     8. Deployed to Heroku (or similar)",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/ElmasSayed/Project2.git"
-    },
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/ElmasSayed/Project2/issues"
-    },
-    "homepage": "https://github.com/ElmasSayed/Project2#readme"
-} 
+  "name": "magbook",
+  "version": "1.0.0",
+  "description": "PROJECT REQUIREMENTS:     1. Node and Express web server     2. Backed by MySQL database and an ORM (not necessarily Sequelize)     3. GET and POST routes     4. MVC folder structure     5. Utilize at least one new library, package, or technology     5. (Optional) Handlebars templating     7. Proper project management (Trello, git branching, README, package.json, etc.)     8. Deployed to Heroku (or similar)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElmasSayed/Project2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElmasSayed/Project2/issues"
+  },
+  "homepage": "https://github.com/ElmasSayed/Project2#readme",
+  "dependencies": {
+    "connect-ensure-login": "^0.1.1",
+    "passport": "^0.3.2",
+    "passport-auth0": "^0.6.0"
+  }
+}
